@@ -16,7 +16,7 @@
 > `cf route ROUTE`
 > `cf space SPACE`
 
--- Deploy an application?
+-- **Deploy/sync** an application?
 > `cf push`
 
 -- Select a space and/or organization to deploy to?
