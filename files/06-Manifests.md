@@ -15,7 +15,7 @@
 
 - If I specify a command in a manifest and on the command line what happens?
 
-  > the `cf push` CLI options always take precedence over manifest file
+  > the `cf push` CLI options always take precedence over manifest file. Command line arguments will always overrides options specified in manifest file.
 
 - What happens if I don't specify a deployment option at all?
 
