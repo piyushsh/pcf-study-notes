@@ -11,7 +11,7 @@
 
   > - using text editor, or
   
-  > - `cf create-app-manifest APP_NAME`
+  > - `cf create-app-manifest APP_NAME` create-app-manifest - Create an app manifest for an app that has been pushed successfully
 
 - If I specify a command in a manifest and on the command line what happens?
 
