@@ -35,8 +35,6 @@
 > - `bin/release` - provides feedback metadata to Cloud Foundry indicating how the app should be executed.
 > - `bin/compile` 
 > creates droplet by combining application with runtime, container, packages, libraries (downloading them if necessary, kept in cache thereafter)
-> - `bin/release`
-> build application start command
 
 - Can you tell what buildpack was used when an application was deployed?
 > `cf app APP_NAME` gives the details of the buildpack used for the application.
