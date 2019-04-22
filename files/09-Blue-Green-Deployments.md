@@ -3,6 +3,7 @@
 - What is a blue-green deployment? Why would you use it?
 
 > it's a technique that reduces downtime and risk by running two identical production environments called Blue and Green.
+At any time, only one of the environments is live, with the live environment serving all production traffic. For this example, Blue is currently live and Green is idle.
 
 > This technique can eliminate downtime due to application deployment. Blue-green deployment also reduces risk; if something unexpected happens with your new version on Green, you can immediately roll back to the last version by switching back to Blue.
 
@@ -14,9 +15,14 @@
 
 - How does route mapping enable a blue-green deployment?
 
-> by routing the existing domain to the Green 
+> by routing the existing live domain/route to the Green 
 
 - What other steps are involved in a blue-green deployment?
+
+> You push you updated App i.e. `Green` with temp route
+> Now, you map live route to `Green` App.
+> Unmap, live route from your `Blue` app.
+> And finally, remove temp route from your `Green` app.
 
 
 ### pluralsight recap
