@@ -11,9 +11,9 @@
 -- View spaces?
 > `cf spaces`
 
--- View a single organization, route or space?
+-- View a single organization, check-route or space?
 > `cf org ORG`
-> `cf route ROUTE`
+> `cf check-route HOST DOMAIN`
 > `cf space SPACE`
 
 -- **Deploy/sync** an application?
