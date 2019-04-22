@@ -8,7 +8,7 @@
 > - System load can be used as a trigger in place of manual interaction
 
 - How would you use it?
-> service
+> Add autoscaler service from market place to your space and bind it to an App and set scaling rules in your App to manage scaling.
 
 - What can you configure?
 > configure the minimum no.of instances and max no. of instances
