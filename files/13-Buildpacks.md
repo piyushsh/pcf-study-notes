@@ -30,6 +30,9 @@
 > scripts:
 > - `bin/detect`
 > inspect application to see if the buildpack should be applied
+> - `bin/supply` - provides dependencies for an app.
+> - `bin/finalize` - prepares the app for launch.
+> - `bin/release` - provides feedback metadata to Cloud Foundry indicating how the app should be executed.
 > - `bin/compile` 
 > creates droplet by combining application with runtime, container, packages, libraries (downloading them if necessary, kept in cache thereafter)
 > - `bin/release`
