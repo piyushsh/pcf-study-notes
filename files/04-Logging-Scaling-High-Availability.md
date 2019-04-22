@@ -5,8 +5,8 @@
 
 - What are the components of the Loggregator system?
 
-> 1. Metron - Forward logs to the Loggregator subsytem
-> 2. Doppler - gather logs from Metron
+> 1. Loggregator Agent - Loggregator Agents run on both PCF component VMs and Diego cell VMs. They receive logs and metrics from the apps and PCF components located on those VMs. Loggregator Agents then forward the logs and metrics to Dopplers.
+> 2. Doppler - gather logs from Loggregator Agent and store them in temporary buffer. Forwards logs to Traffic Controller.
 > 3. Traffic Controller - handles client requests for logs
 > 4. Firehose - a websocket endpoint that exposes app logs, container metrics and ER component metrics
 > 5. Nozzles - consume the firehose output
