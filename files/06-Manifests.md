@@ -4,7 +4,7 @@
 
   > - describes the application deployment options
   > - YAML file
-  > - automates subsequent deployments
+  > - Manifests provide consistency and reproducibility, and can help you automate deploying apps
   > - same options as `cf push` command
 
 - How do you create a manifest?
