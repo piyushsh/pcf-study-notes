@@ -11,9 +11,9 @@
 -- View spaces?
 > `cf spaces`
 
--- View a single organization, route or space?
+-- View a single organization, routes or space?
 > `cf org ORG`
-> `cf route ROUTE`
+> `cf routes [--orglevel]`
 > `cf space SPACE`
 
 -- Deploy an application?
